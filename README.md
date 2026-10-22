@@ -1,6 +1,6 @@
 # Electricity Bill Calculator
 
-## This program calculates a person's electricity bill by analyzing their meter readings and using formulas to find the exact amount.
+## This program calculates a person's electricity bill by analyzing their meter readings and using formulas to find the exact amount, with validation rules in place to keep the program running smooth and efficiently.
 
 ## How to run the code:
 1. Open the code in online GDB, Google Colab, or code.org Python Lab.
