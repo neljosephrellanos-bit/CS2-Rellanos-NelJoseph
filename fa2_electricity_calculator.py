@@ -9,13 +9,13 @@ if name == "":
 previous = float(input("Enter previous meter reading: "))
 
 if previous < 0:
-    print("Meter reading invalid. Please re-enter your previous meter reading.")
+    print("Meter reading invalid. Meter reading must be greater than 0. Please re-enter your previous meter reading.")
     previous = float(input("Enter previous meter reading: "))
 
 current = float(input("Enter current meter reading: "))
 
 if current < previous:
-    print("Current meter reading invalid. Please re-enter your current meter reading.")
+    print("Current meter reading invalid. Please re-enter your current meter reading. Must be higher than your previous meter reading.")
     current = float(input("Enter current meter reading: "))
 
 consumption = current - previous
