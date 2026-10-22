@@ -16,7 +16,7 @@
 ## Input Validation: 
 - Checks whether or not name inputted is not blank.
 - Previous meter reading is greater than 0.
-- Current meter reading is greater than or equal to 0.
+- Current meter reading is greater than or equal to the previous meter reading.
 
 
 
